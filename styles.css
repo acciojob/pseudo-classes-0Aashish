@@ -3,16 +3,21 @@
 	background-color: rgb(135, 206, 235);
 }
 
-p:first-child{
+div p:first-child{
 	background-color: black;
 	color: white
 }
 
-p:last-child{
+div p:nth-child(2){
+	background-color: rgb(135, 206, 235);
+	color: black;
+}
+
+ div p:last-child{
 	color: red;
 }
 
-ul{
+ul li {
 	width: 50%;
 	padding: 10px;
 	.even{
