@@ -1,4 +1,5 @@
 /*  your css code here. If applicable */
+
 :root{
 	background-color: rgb(135, 206, 235);
 }
@@ -11,10 +12,6 @@ p:first-child{
 /* div p:nth-child(2){
 	background-color: rgb(135, 206, 235);
 	color: black; */
-}
-
-p:last-child{
-	color: red;
 }
 
 li{
